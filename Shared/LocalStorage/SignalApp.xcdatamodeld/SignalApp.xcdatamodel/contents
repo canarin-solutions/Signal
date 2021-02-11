@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20C5048k" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LocalStation" representedClassName="LocalStation" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES"/>
+        <attribute name="imageURL" optional="YES"/>
+        <attribute name="name" optional="YES"/>
+        <attribute name="streamURL" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="LocalStation" positionX="-45" positionY="0" width="128" height="89"/>
+    </elements>
+</model>

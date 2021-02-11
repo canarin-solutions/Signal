@@ -1,0 +1,35 @@
+{
+    "station":
+    [
+     {
+     "name": "Otvoreni LIVE",
+     "streamURL": "https://stream.otvoreni.hr/stream48",
+     "imageURL": "https://www.otvoreni.hr/ea/wp-content/uploads/2019/06/cover_live.png",
+     "desc": ""
+     },
+     {
+     "name": "Otvoreni HO-HO",
+     "streamURL": "https://stream.otvoreni.hr:443/hoho",
+     "imageURL": "https://www.otvoreni.hr/ea/wp-content/uploads/2019/06/cover_hoho.png",
+     "desc": ""
+     },
+     {
+     "name": "Otvoreni Love",
+     "streamURL": "https://stream.otvoreni.hr:443/love",
+     "imageURL": "https://www.otvoreni.hr/ea/wp-content/uploads/2020/01/cover_love.jpg",
+     "desc": ""
+     },
+     {
+     "name": "Otvoreni Fitness",
+     "streamURL": "https://stream.otvoreni.hr:443/fitness",
+     "imageURL":"https://www.otvoreni.hr/ea/wp-content/uploads/2019/06/cover_fitness.png",
+     "desc": ""
+     },
+     {
+     "name": "Otvoreni Chill",
+     "streamURL": "https://stream.otvoreni.hr:443/chill",
+     "imageURL": "https://www.otvoreni.hr/ea/wp-content/uploads/2019/06/cover_chill.png",
+     "desc": ""
+     }
+    ]
+}
