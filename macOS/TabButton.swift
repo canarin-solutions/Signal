@@ -23,7 +23,7 @@ struct TabButton : View {
                 
                 Image(systemName: image)
                     .font(.title)
-                    .foregroundColor(selected == image ? Color.black : Color.gray.opacity(0.7))
+                    .foregroundColor(selected == image ? Color(NSColor.labelColor) : Color(NSColor.systemGray).opacity(0.7))
                     .frame(height: 40)
                     .padding(.horizontal)
                 
