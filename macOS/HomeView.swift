@@ -36,14 +36,14 @@ struct HomeView: View {
                     Text("Signal")
                         .font(.largeTitle)
                         .fontWeight(.heavy)
-                        .foregroundColor(.gray)
+                        .foregroundColor(Color(NSColor.systemGray))
                     
                     Spacer()
                     
                     HStack(spacing: 15){
                         
                         Image(systemName: "magnifyingglass")
-                            .foregroundColor(.gray)
+                            .foregroundColor(Color(NSColor.systemGray))
                         
                         TextField("Search", text: $searchText)
                             .textFieldStyle(PlainTextFieldStyle())
@@ -61,7 +61,7 @@ struct HomeView: View {
                     })
                     {
                         Image(systemName: "power")
-                            .foregroundColor(.black)
+                            .foregroundColor(Color(NSColor.labelColor))
                     }.buttonStyle(PlainButtonStyle())
                 }
                 .padding(.vertical)
@@ -146,11 +146,11 @@ struct HomeView: View {
                             Text("\(radioPlayer.radio.track.name ?? "" == "" ? radioPlayer.stations[currentIndex].name : radioPlayer.radio.track.name!)")
                                 .font(.caption)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.black)
+                                .foregroundColor(Color(NSColor.labelColor))
                             
                             Text("\(radioPlayer.radio.track.artist ?? "Live..." == "" ? "Live..." : radioPlayer.radio.track.artist!)")
                                 .font(.caption2)
-                                .foregroundColor(.gray)
+                                .foregroundColor(Color(NSColor.secondaryLabelColor))
                         })
                         
                         Spacer(minLength: 20)
@@ -189,7 +189,7 @@ struct HomeView: View {
                     }
                     .padding(.vertical,10)
                     .padding(.horizontal,8)
-                    .background(Color.white)
+                    .background(Color(NSColor.windowBackgroundColor))
                     .cornerRadius(10)
                     .shadow(color: Color.black.opacity(0.1), radius: 5, x: 5, y: 5)
                     .shadow(color: Color.black.opacity(0.1), radius: 5, x: -5, y: -5)
@@ -201,7 +201,7 @@ struct HomeView: View {
         }
         .ignoresSafeArea(.all, edges: .all)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white.opacity(0.6))
+        .background(Color(NSColor.windowBackgroundColor).opacity(0.6))
         .background(BlurWindow())
     }
 }
