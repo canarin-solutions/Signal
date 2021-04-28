@@ -30,6 +30,12 @@
      "streamURL": "https://stream.otvoreni.hr:443/chill",
      "imageURL": "https://www.otvoreni.hr/ea/wp-content/uploads/2019/06/cover_chill.png",
      "desc": ""
+     },
+     {
+     "name": "Yammat FM",
+     "streamURL": "https://stream.otvoreni.hr:443/chill",
+     "imageURL": "https://cdn.webrad.io/images/logos/radios-hr/narodni.png",
+     "desc": ""
      }
     ]
 }
